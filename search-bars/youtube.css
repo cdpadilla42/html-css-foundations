@@ -1,0 +1,12 @@
+#form {
+  display: flex;
+}
+
+#search {
+  border: 1px solid grey;
+  border-right: none;
+}
+
+#button {
+  border: 1px solid grey;
+}
