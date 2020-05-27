@@ -1,0 +1,22 @@
+body {
+  background-color: #4a455b;
+}
+
+#email {
+  border: none;
+  width: 300px;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 3px;
+}
+
+#email_submit {
+  display: block;
+  margin-top: 0.5rem;
+  border: none;
+  background-color: #ffcdaf;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0.8rem;
+  border-radius: 3px;
+}
