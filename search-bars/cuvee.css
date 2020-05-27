@@ -1,0 +1,16 @@
+body {
+  background: url('https://img.freepik.com/free-vector/realistic-coffee-background-with-drawings_79603-603.jpg?size=626&ext=jpg');
+}
+.filter {
+  background: rgba(0, 0, 0, 0.411);
+  width: 100vw;
+  height: 100vh;
+}
+#email_form {
+}
+
+#email {
+}
+
+#email_submit {
+}

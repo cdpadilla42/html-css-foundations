@@ -1,12 +1,37 @@
+body {
+  background-color: rgba(32, 32, 32, 1);
+}
 #form {
   display: flex;
 }
 
 #search {
-  border: 1px solid grey;
-  border-right: none;
+  border: 1px solid #303030;
+  padding: 0.4rem;
+  font-size: 1rem;
+  background-color: black;
+  font-weight: 200;
+  color: #cecece;
+  padding-left: 0.5rem;
 }
 
 #button {
-  border: 1px solid grey;
+  border: 1px solid #303030;
+  background-color: #303030;
+  color: #6d6d6d;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+#button:hover {
+  color: rgba(140, 140, 140, 1);
+  cursor: pointer;
+}
+
+#search:focus {
+  outline: none;
+  border-color: #495fff;
+}
+
+.fa-search {
+  font-size: 0.8rem;
 }
