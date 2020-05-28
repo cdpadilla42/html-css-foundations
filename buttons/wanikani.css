@@ -1,0 +1,17 @@
+.join {
+  padding: 0.7rem;
+  border: none;
+  background-color: #fff;
+  color: forestgreen;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.join:active {
+  outline: none;
+  border-style: none;
+}
+
+body {
+  background-color: forestgreen;
+}
