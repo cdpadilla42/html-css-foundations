@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.search_container {
+  width: 600px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+#search {
+  width: 600px;
+  background: none;
+  padding: 1rem 2.5rem;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+}
+
+#search:focus {
+  outline: none;
+  box-shadow: 0 1px 5px lightgray;
+  border: none;
+}
+
+#search-icon,
+#mic_icon {
+  color: grey;
+}
+
+#search-icon {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+#mic_icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
