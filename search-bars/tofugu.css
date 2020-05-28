@@ -12,13 +12,21 @@
 #search {
   width: 600px;
   border: none;
+  color: rgb(99, 97, 97);
   border-bottom: 3px solid rgb(151, 151, 151);
-  color: darkgray;
   text-transform: uppercase;
   padding: 1rem;
-  padding-left: 2rem;
+  padding-left: 3rem;
   font-size: 1rem;
   margin: 1rem;
+}
+
+#search::placeholder {
+  color: darkgray;
+}
+
+#search:focus {
+  outline: none;
 }
 
 .fa-search {
@@ -26,9 +34,3 @@
   top: 2rem;
   left: 1.5rem;
 }
-/* 
-.shadow {
-  box-shadow: 0 -1px 5px black;
-  height: 1px;
-  background-color: green;
-} */
