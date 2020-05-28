@@ -17,7 +17,8 @@ body {
   border: 1px solid grey;
   color: white;
   border-radius: 3px;
-  padding: 1rem;
+  padding: 0.6rem;
+  line-height: 1.5rem;
 }
 
 #search::placeholder {
@@ -41,6 +42,6 @@ body {
 .fa-search {
   position: absolute;
   right: 1rem;
-  top: 1rem;
+  top: 0.9rem;
   color: white;
 }
