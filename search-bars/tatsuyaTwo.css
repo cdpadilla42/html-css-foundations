@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(54, 54, 54);
+}
+
+.search_container {
+  position: relative;
+  width: 600px;
+}
+
+#search {
+  width: 600px;
+  background: none;
+  border: 1px solid grey;
+  color: white;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+#search::placeholder {
+  color: white;
+}
+
+#search:focus {
+  border: 1px solid red;
+  outline: none;
+}
+
+#search::-moz-selection {
+  background: red;
+  color: white;
+}
+#search::selection {
+  background: red;
+  color: white;
+}
+
+.fa-search {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: white;
+}
