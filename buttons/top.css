@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  border-style: none;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.primary {
+  background-color: #cc9543;
+  border: none;
+  box-shadow: 0 1px 3px black;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.complete {
+  background-color: blue;
+}
