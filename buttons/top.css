@@ -11,18 +11,35 @@ button:active {
 }
 
 .container {
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
+  margin-top: 1rem;
 }
 
-.primary {
+button {
   background-color: #cc9543;
   border: none;
-  box-shadow: 0 1px 3px black;
+  box-shadow: 0 1px 3px grey;
   border-radius: 3px;
   width: 100%;
+  padding: 1rem;
+  color: white;
+  font-weight: 800;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 
 .complete {
-  background-color: blue;
+  background-color: rgb(96, 184, 219);
+}
+
+.incomplete {
+  background-color: rgb(255, 68, 68);
+  opacity: 0.8;
+}
+
+.completed {
+  background-color: lightgray;
 }
