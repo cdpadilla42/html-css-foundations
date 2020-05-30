@@ -1,0 +1,24 @@
+.container {
+  width: 400px;
+  margin: 1rem auto;
+  background: url('https://www.arborday.org/images/hero/medium/hero-aerial-forest-evergreen-trees.jpg');
+}
+
+button:active {
+  border-style: solid;
+  background-color: rgb(53, 134, 255);
+}
+
+button:focus {
+  outline: dashed;
+  outline-width: thin;
+}
+
+.sign_out {
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 0.5rem 1.8rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 1rem;
+}
