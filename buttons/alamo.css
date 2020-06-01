@@ -1,3 +1,12 @@
+.preload > * {
+  transition: none !important;
+}
+
+.container {
+  width: 400px;
+  margin: 1rem auto;
+}
+
 button {
   box-sizing: border-box;
   border: none;
@@ -5,6 +14,7 @@ button {
   color: black;
   border-radius: 5px;
   padding: 1rem;
+  font-family: futura-pt-bold, sans-serif;
 }
 
 .primary,
@@ -12,6 +22,7 @@ button {
   font-size: 1rem;
   font-weight: 800;
   text-transform: uppercase;
+  transition: ease 0.4s;
 }
 
 button:hover,
