@@ -1,5 +1,8 @@
 .preload > * {
-  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
 }
 
 .container {
@@ -7,23 +10,22 @@
   margin: 1rem auto;
 }
 
-button {
+.primary,
+.animation {
   box-sizing: border-box;
   border: none;
   background-color: rgb(255, 174, 0);
   color: black;
   border-radius: 5px;
   padding: 1rem;
-}
-
-.primary,
-.animation {
   font-size: 1rem;
   font-weight: 800;
   text-transform: uppercase;
   transition: ease 0.4s;
   font-family: roboto, sans-serif;
   font-weight: 800;
+  position: relative;
+ß
 }
 
 button:hover,
@@ -38,8 +40,15 @@ button:active {
   opacity: 0.6;
 }
 
+.fa-external-link-alt {
+  position: absolute;
+  right: 1rem;
+  transition: ease 0.4s;
+}
+
 .primary {
 }
 
 .animation {
+  padding-right: 3rem;
 }
