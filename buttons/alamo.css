@@ -25,7 +25,6 @@
   font-family: roboto, sans-serif;
   font-weight: 800;
   position: relative;
-ß
 }
 
 button:hover,
@@ -35,6 +34,12 @@ button:active {
   outline: none;
 }
 
+button:hover > .fa-external-link-alt {
+  transform: translate(8px, 0);
+  transition: ease 0.4s;
+  /* TODO: Check CSS tricks for help! */
+}
+
 button:active {
   outline: none;
   opacity: 0.6;
@@ -42,8 +47,9 @@ button:active {
 
 .fa-external-link-alt {
   position: absolute;
-  right: 1rem;
-  transition: ease 0.4s;
+  right: 1.2rem;
+  top: 1rem;
+  transform: translate(0, 0);
 }
 
 .primary {
