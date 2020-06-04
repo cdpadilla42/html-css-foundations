@@ -21,7 +21,7 @@
   font-size: 1rem;
   font-weight: 800;
   text-transform: uppercase;
-  transition: ease 0.4s;
+  transition: color 0.4s ease, background-color 0.4s ease;
   font-family: roboto, sans-serif;
   font-weight: 800;
   position: relative;
@@ -34,12 +34,6 @@ button:active {
   outline: none;
 }
 
-button:hover > .fa-external-link-alt {
-  transform: translate(8px, 0);
-  transition: ease 0.4s;
-  /* TODO: Check CSS tricks for help! */
-}
-
 button:active {
   outline: none;
   opacity: 0.6;
@@ -49,7 +43,14 @@ button:active {
   position: absolute;
   right: 1.2rem;
   top: 1rem;
-  transform: translate(0, 0);
+  transition: right 0.4s ease;
+}
+
+button:hover > .fa-external-link-alt {
+  right: 0.7rem;
+  /* transform: translate(8px, 0); */
+  /* transition: color 0.4s ease; */
+  /* TODO: Check CSS tricks for help! */
 }
 
 .primary {
