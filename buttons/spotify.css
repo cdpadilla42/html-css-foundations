@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+
+.nav_button {
+  display: block;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 0.6rem;
+  padding-left: 0rem;
+  width: 200px;
+  margin: 1rem auto;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: rgb(41, 40, 40);
+}
