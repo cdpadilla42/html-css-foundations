@@ -1,0 +1,23 @@
+body {
+  background-color: coral;
+}
+
+.button {
+}
+
+.hero__button {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-weight: 800;
+  text-shadow: 0 2px 0 rgba(49, 49, 49, 0.3);
+  border-radius: 5px;
+  padding: 1rem 1.3rem;
+  background-color: #fff;
+  color: rgb(49, 49, 49);
+  text-transform: uppercase;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.hero__button:hover {
+  background-color: rgb(73, 187, 224);
+}
