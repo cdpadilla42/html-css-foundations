@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  margin: 1rem;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.right_hand {
+  flex: 1;
+  border: 1px solid green;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fa-map-marker-alt,
+.fa-bars {
+  font-size: 2rem;
+  padding: 0 1rem;
+}
