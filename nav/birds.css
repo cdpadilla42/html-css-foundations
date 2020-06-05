@@ -9,31 +9,57 @@ ul {
 .container {
   display: flex;
   align-items: center;
-  border: 1px solid red;
-  position: relative;
+  border: 2px solid red;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 900;
 }
 
 .logo {
-  height: 3.2rem;
+  height: 3.5rem;
 }
 
-.nav_links {
+ul {
   display: flex;
   flex: 1;
   list-style: none;
   justify-content: flex-end;
-  border: 1px solid green;
 }
 
 a {
-  display: block;
-  padding: 1.3rem;
+  padding: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
 }
 
-a.schedule_button {
+a:hover {
+  text-decoration: underline;
+}
+
+.schedule_button {
+  background-color: black;
+  color: white;
+}
+
+.join_button {
   background-color: purple;
+  color: white;
 }
 
-a.join_button {
-  background-color: grey;
+.schedule_button:hover,
+.join_button:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+@media all and (min-width: 991px) {
+  .desktop_hide {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .mobile_hide {
+    display: none !important;
+  }
 }
