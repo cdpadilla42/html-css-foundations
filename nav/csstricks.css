@@ -13,12 +13,12 @@ ul {
 
 nav.container {
   display: flex;
+  border-bottom: 1px solid rgba(66, 66, 252, 0.3);
 }
 a {
   display: flex;
   flex-direction: column;
   border-right: 1px solid rgba(66, 66, 252, 0.3);
-  border-bottom: 1px solid rgba(66, 66, 252, 0.3);
   align-items: center;
   color: white;
   background-color: rgba(66, 66, 252, 0);
@@ -78,6 +78,7 @@ li {
   padding: 0.65rem 1.5rem;
   border-radius: 5px 28px 28px 5px;
   color: white;
+  margin-bottom: none;
 }
 
 .menu_search_button {
@@ -86,19 +87,31 @@ li {
   align-items: stretch;
   border: 1px solid rgba(66, 66, 252, 0.3);
   border-right: none;
+  border-top: none;
+  border-bottom: none;
 }
 
 .border-wrap {
   border-left: 1px solid rgba(66, 66, 252, 0.3);
-  border-bottom: 1px solid rgba(66, 66, 252, 0.3);
+  border-bottom: none;
   border-top: 1px solid rgba(66, 66, 252, 0.3);
   border-radius: 20px 0 0 20px;
   width: 100%;
   padding: 1.5rem;
 }
 
-.menu_search_icon {
+.bars_wrap {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  border: 1px solid rgba(66, 66, 252, 0.3);
+  border-bottom: none;
+  border-top: none;
+}
+
+.fas.menu_search_icon {
   font-size: 1.5rem;
+  margin-bottom: 0;
 }
 
 @media all and (max-width: 996px) {
