@@ -1,0 +1,18 @@
+button.hero__button {
+  margin: 0.5rem;
+}
+
+.hero {
+  background-color: palegoldenrod;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__buttons_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
