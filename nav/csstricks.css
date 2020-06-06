@@ -81,6 +81,18 @@ li {
 }
 
 @media all and (min-width: 997px) {
+  .hide_med_up {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1250px) {
+  .hide_med_down {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1251px) {
   .hide_desktop {
     display: none;
   }
