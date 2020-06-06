@@ -45,6 +45,34 @@ li {
   flex: 1;
 }
 
+.search_form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#search {
+  font-size: 1.5rem;
+  padding: 0.8rem 1.3rem;
+  border-radius: 30px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  border: 2px solid rgb(70, 70, 70);
+}
+
+#search:focus {
+  border: 1px solid white;
+  outline: none;
+}
+
+.searchbox_icon {
+  position: absolute;
+  right: 0.1rem;
+  background-color: palegoldenrod;
+  padding: 0.65rem 1.5rem;
+  border-radius: 5px 28px 28px 5px;
+}
+
 @media all and (max-width: 996px) {
   .hide_mobile {
     display: none;
