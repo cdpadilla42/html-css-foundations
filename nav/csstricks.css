@@ -61,16 +61,17 @@ li {
 }
 
 #search:focus {
-  border: 1px solid white;
+  border: 2px solid white;
   outline: none;
 }
 
 .searchbox_icon {
   position: absolute;
   right: 0.1rem;
-  background-color: palegoldenrod;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
   padding: 0.65rem 1.5rem;
   border-radius: 5px 28px 28px 5px;
+  color: white;
 }
 
 @media all and (max-width: 996px) {
