@@ -2,9 +2,13 @@ button.hero__button {
   margin: 0.5rem;
 }
 
+.trail {
+  height: 50vh;
+}
+
 .hero {
   background: url('https://vetstreet.brightspotcdn.com/dims4/default/61ede8e/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fa5%2F187ce0a8b411e0a0d50050568d634f%2Ffile%2Fgoldendoodle-3-645mk070111.jpg');
-  height: 590px;
+  height: 100vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -38,5 +42,24 @@ button.hero__button {
 }
 
 h1.hero__text {
-  font-size: 4rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* Font Media Queries */
+
+/* 992
+
+765 */
+
+@media all and (max-width: 765px) {
+  h1.hero__text {
+    font-size: 2rem;
+  }
+}
+
+@media all and (min-width: 992px) {
+  h1.hero__text {
+    font-size: 4rem;
+  }
 }
