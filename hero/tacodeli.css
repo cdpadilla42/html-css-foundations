@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 button.hero__button {
   margin: 0.5rem;
 }
@@ -9,6 +13,8 @@ button.hero__button {
 nav {
   height: 3rem;
 }
+
+/* todo adjust for mobile */
 
 .hero {
   height: calc(100vh - 3rem);
@@ -58,8 +64,10 @@ nav {
   color: rgb(73, 187, 224);
 }
 
+/* TODO Convert rems and ems to px */
+
 h1.hero__text {
-  font-size: 3rem;
+  font-size: 80px;
   text-align: center;
 }
 
@@ -67,7 +75,7 @@ h1.hero__text {
 
 @media all and (max-width: 765px) {
   h1.hero__text {
-    font-size: 2rem;
+    font-size: 80px;
   }
 }
 
