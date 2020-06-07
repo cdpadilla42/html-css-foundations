@@ -81,6 +81,6 @@ h1.hero__text {
 
 @media all and (min-width: 992px) {
   h1.hero__text {
-    font-size: 4rem;
+    font-size: 64px;
   }
 }
