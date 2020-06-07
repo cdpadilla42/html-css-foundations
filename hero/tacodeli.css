@@ -6,10 +6,15 @@ button.hero__button {
   height: 50vh;
 }
 
+nav {
+  height: 3rem;
+}
+
 .hero {
-  background: url('https://vetstreet.brightspotcdn.com/dims4/default/61ede8e/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fa5%2F187ce0a8b411e0a0d50050568d634f%2Ffile%2Fgoldendoodle-3-645mk070111.jpg');
   height: 100vh;
+  background: url('https://vetstreet.brightspotcdn.com/dims4/default/61ede8e/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fa5%2F187ce0a8b411e0a0d50050568d634f%2Ffile%2Fgoldendoodle-3-645mk070111.jpg');
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +43,7 @@ button.hero__button {
 
 .hero__scroll_prompt {
   position: absolute;
-  bottom: 1rem;
+  bottom: 3.5rem;
 }
 
 h1.hero__text {
@@ -47,10 +52,6 @@ h1.hero__text {
 }
 
 /* Font Media Queries */
-
-/* 992
-
-765 */
 
 @media all and (max-width: 765px) {
   h1.hero__text {
