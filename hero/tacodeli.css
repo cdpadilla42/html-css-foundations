@@ -67,20 +67,20 @@ nav {
 /* TODO Convert rems and ems to px */
 
 h1.hero__text {
-  font-size: 80px;
+  font-size: 32px;
   text-align: center;
 }
 
 /* Font Media Queries */
 
-@media all and (max-width: 765px) {
+@media all and (min-width: 765px) {
   h1.hero__text {
-    font-size: 32px;
+    font-size: 64px;
   }
 }
 
 @media all and (min-width: 992px) {
   h1.hero__text {
-    font-size: 64px;
+    font-size: 80px;
   }
 }
