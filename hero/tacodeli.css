@@ -75,7 +75,7 @@ h1.hero__text {
 
 @media all and (max-width: 765px) {
   h1.hero__text {
-    font-size: 80px;
+    font-size: 32px;
   }
 }
 
