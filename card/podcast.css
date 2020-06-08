@@ -1,0 +1,18 @@
+.card {
+  font-size: 0.8rem;
+  padding: 1rem;
+  width: 100px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.card .img {
+  width: 100%;
+  padding-top: 100%;
+  background-color: blue;
+}
+
+.card a {
+  display: block;
+  padding-top: 0.5em;
+}
