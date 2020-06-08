@@ -1,8 +1,50 @@
-.crabigator {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 231, 231);
   position: relative;
-  padding-top: 20rem;
+}
+
+.crabigator {
+  margin-top: 2rem;
+  position: relative;
+  padding-top: 19rem;
   background: url('https://cdn.wanikani.com/assets/session/sign-up-@2x-3e4f2a2ffa835c6a2a5f48e288381ee0a453f50ebdccc63f4b98a6dbc4179b96.png');
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
+}
+
+.sign_up_form {
+  width: 20rem;
+  position: relative;
+  margin: 0 auto;
+  top: -1.3rem;
+}
+
+.sign_up_form > .text {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.7rem;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 5px;
+}
+
+.sign_up_form fieldset {
+  border: none;
+}
+
+fieldset {
+  color: gray;
+}
+
+a {
+  text-align: center;
+  color: gray;
+}
+
+footer a {
+  display: block;
 }
