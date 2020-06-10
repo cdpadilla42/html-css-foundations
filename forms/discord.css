@@ -114,16 +114,46 @@ body {
   }
 }
 
-.login_component {
+.login_component,
+.banner {
   background-color: #36393f;
   color: gray;
   position: relative;
-  padding: 1.5rem;
+  padding: 0.9rem 1.5rem;
   max-width: 30rem;
   margin: 3rem auto;
   border-radius: 5px;
   box-shadow: 0 3px 8px #2a2c30;
 }
+
+.banner {
+  display: flex;
+
+  align-items: center;
+}
+
+.banner span {
+  padding-left: 8.5rem;
+  color: white;
+  flex: 1;
+}
+
+.banner a {
+  color: gray;
+  text-decoration: none;
+  font-size: 1rem;
+  justify-self: flex-end;
+}
+
+.banner a:hover {
+  color: rgb(163, 163, 163);
+}
+
+.banner img {
+  position: absolute;
+  bottom: 0;
+}
+
 .login__form {
   font-size: 0.9rem;
 }
