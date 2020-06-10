@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+footer.container {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.subscription_text h3 {
+  color: teal;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.subscription_text p {
+  margin: 0;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_container fieldset {
+  border: none;
+  padding-bottom: 0;
+}
+
+label {
+  display: block;
+}
+
+label span {
+  color: rgb(187, 2, 2);
+}
+
+.text_input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid black;
+  transition: border 0.4s ease;
+}
+
+.text_input:focus {
+  border: 2px solid rgb(131, 194, 37);
+  outline: none;
+}
