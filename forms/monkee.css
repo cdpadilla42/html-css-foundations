@@ -46,3 +46,30 @@ label span {
   border: 2px solid rgb(131, 194, 37);
   outline: none;
 }
+
+.contact_container {
+  display: flex;
+  border-top: 1px solid gray;
+}
+
+.contact__socials {
+  flex: 1;
+}
+
+.contact__address {
+  flex: 1;
+}
+
+.contact__phone {
+  flex: 1;
+}
+
+.contact__phone a {
+  color: teal;
+  text-decoration: none;
+  font-weight: 800;
+}
+.contact__phone a:hover {
+  color: rgb(2, 82, 82);
+  text-decoration: none;
+}
