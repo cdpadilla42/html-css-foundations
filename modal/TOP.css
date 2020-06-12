@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.body__text {
+  text-align: center;
+  margin: 20rem;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: 30vh;
+  left: 25vw;
+  width: 50vw;
+  background-color: rosybrown;
+  padding: 5rem;
+  margin: 0 auto;
+}
+
+.modal span {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
