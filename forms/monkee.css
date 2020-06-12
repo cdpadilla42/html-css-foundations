@@ -47,10 +47,16 @@ label span {
   outline: none;
 }
 
+.button {
+  z-index: 3;
+}
+
 .contact_container {
   display: flex;
   border-top: 1px solid gray;
   font-size: 1rem;
+  position: relative;
+  margin-top: 10rem;
 }
 
 .contact__socials {
@@ -58,7 +64,33 @@ label span {
 }
 
 .social_container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   background-color: blue;
+  height: 245px;
+  width: 185px;
+  z-index: 2;
+  background: url('https://www.monkee-boy.com/monkee_boy/images/dist/monkey-hand-w-phone.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.social__transformed {
+  border: 1px solid greenyellow;
+  transform: rotate(35deg);
+  width: 80px;
+  position: absolute;
+  top: 65px;
+  left: 45px;
+  height: 100px;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  font-size: 2rem;
+  justify-items: center;
+  align-items: center;
+  color: #fdd560;
 }
 
 .contact__address {
@@ -67,6 +99,14 @@ label span {
   border-bottom: none;
   border-top: none;
   line-height: 1.2rem;
+  position: relative;
+}
+
+.contact__address .fas {
+  position: absolute;
+  left: 1.3rem;
+  font-size: 1.5rem;
+  color: #fdd560;
 }
 
 .contact__address,
