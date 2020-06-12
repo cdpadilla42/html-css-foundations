@@ -3,24 +3,37 @@
 }
 
 .body__text {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
   text-align: center;
-  margin: 20rem;
   cursor: pointer;
 }
 
 .modal {
-  position: absolute;
-  top: 30vh;
-  left: 25vw;
-  width: 50vw;
-  background-color: rosybrown;
-  padding: 5rem;
+  width: 60%;
   margin: 0 auto;
+  background-color: rosybrown;
+  padding: 2rem;
+  margin: 0 auto;
+  margin-top: 10vh;
   z-index: 2;
+  position: relative;
 }
 
 .modal span {
   cursor: pointer;
+  position: absolute;
+  right: 2rem;
+  color: lightblue;
+  font-size: 2rem;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
 }
 
 .hide {
@@ -33,7 +46,16 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: black;
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+
+.modal ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 5.5vh;
+  /* #cf9b4e */
 }
