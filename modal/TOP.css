@@ -13,9 +13,9 @@
 }
 
 .modal {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
-  background-color: rosybrown;
+  background-color: white;
   padding: 2rem;
   margin: 0 auto;
   margin-top: 10vh;
@@ -55,7 +55,10 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  color: white;
+  color: #cf9b4e;
   font-size: 5.5vh;
-  /* #cf9b4e */
+}
+
+hr {
+  border-top: 1px solid #cf9b4e;
 }
