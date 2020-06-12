@@ -50,20 +50,41 @@ label span {
 .contact_container {
   display: flex;
   border-top: 1px solid gray;
+  font-size: 1rem;
 }
 
 .contact__socials {
   flex-basis: 10.5rem;
 }
 
+.social_container {
+  background-color: blue;
+}
+
 .contact__address {
   flex: 1;
   border: 1px solid gray;
+  border-bottom: none;
+  border-top: none;
+  line-height: 1.2rem;
+}
+
+.contact__address,
+.contact__phone {
+  font-size: 0.9rem;
+  padding: 1rem 3rem;
+}
+
+.contact__spacer {
+  width: 1.5rem;
 }
 
 .contact__phone {
   flex: 1;
   border: 1px solid gray;
+  border-bottom: none;
+  border-top: none;
+  line-height: 1.2rem;
 }
 
 .contact__phone a {
