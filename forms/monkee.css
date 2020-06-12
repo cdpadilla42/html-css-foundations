@@ -53,15 +53,17 @@ label span {
 }
 
 .contact__socials {
-  flex: 1;
+  flex-basis: 10.5rem;
 }
 
 .contact__address {
   flex: 1;
+  border: 1px solid gray;
 }
 
 .contact__phone {
   flex: 1;
+  border: 1px solid gray;
 }
 
 .contact__phone a {
