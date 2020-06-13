@@ -1,0 +1,33 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('https://weareblood.org/wp-content/uploads/2020/04/wrb-coronavirus-slide-5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+
+.hero h1 {
+  display: block;
+  margin-top: 10rem;
+  width: 80%;
+}
+
+.hero__button {
+  background-color: #e56a54;
+  text-transform: uppercase;
+  padding: 1rem;
+  border: 5px solid #e56a54;
+}
+
+.hero__button:hover {
+  background: none;
+}
