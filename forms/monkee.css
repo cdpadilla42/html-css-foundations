@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+  position: relative;
+}
 
 footer.container {
   font-size: 1.2rem;
@@ -153,5 +156,34 @@ label span {
 
   .contact_container {
     border-top: none;
+  }
+
+  .container {
+    margin-left: 15rem;
+    margin-right: 10rem;
+    padding-bottom: 3rem;
+  }
+
+  .form_container fieldset:first-child {
+    padding-left: 0;
+  }
+
+  .contact_container {
+    margin-top: 2rem;
+  }
+
+  .contact__phone,
+  .contact__address {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: none;
+    border-right: none;
+  }
+
+  .contact__address {
+    border-right: 1px solid gray;
+  }
+  .button {
+    margin-top: 1.5rem;
   }
 }
