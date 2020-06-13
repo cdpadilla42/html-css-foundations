@@ -78,7 +78,6 @@ label span {
 }
 
 .social__transformed {
-  border: 1px solid greenyellow;
   transform: rotate(35deg);
   width: 80px;
   position: absolute;
@@ -135,4 +134,24 @@ label span {
 .contact__phone a:hover {
   color: rgb(2, 82, 82);
   text-decoration: none;
+}
+
+@media all and (min-width: 750px) {
+  .form_container {
+    flex-direction: row;
+  }
+
+  .form_container > * {
+    flex: 1;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .hide_desktop {
+    display: none;
+  }
+
+  .contact_container {
+    border-top: none;
+  }
 }
