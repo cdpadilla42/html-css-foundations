@@ -1,0 +1,48 @@
+.hero {
+  background: url('https://1oiltgq90821r7dw4erf4v1d-wpengine.netdna-ssl.com/wp-content/uploads/Nature-Nates-Simple-Honey-Pairings-2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Vaneer, sans-serif;
+}
+
+button {
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: none;
+  color: white;
+  font-weight: 800;
+  transition: background-color 0.4s ease, border 0.4s ease;
+}
+
+button:hover {
+  background-color: orange;
+  border: 2px solid orange;
+}
+
+.hero__page_down {
+  border-radius: 100%;
+  justify-self: flex-end;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 1rem;
+}
+
+p {
+  height: 80vh;
+}
