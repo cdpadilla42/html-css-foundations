@@ -27,10 +27,14 @@ nav {
   background-color: #e56a54;
   padding: 2rem;
 }
+nav {
+  padding-left: 2rem;
+}
 
 .nav__desktop_menu {
   flex: 1;
   padding-left: 2rem;
+  display: none;
 }
 
 .nav__desktop_menu ul {
@@ -39,6 +43,10 @@ nav {
   padding: 0;
   display: flex;
   justify-content: space-between;
+}
+
+.spacer {
+  flex-basis: 1rem;
 }
 .nav__desktop_menu ul li {
   display: inline;
@@ -67,4 +75,18 @@ nav {
 
 .hero__button:hover {
   background: none;
+}
+
+@media all and (min-width: 1024px) {
+  .nav__desktop_menu {
+    display: block;
+  }
+
+  nav {
+    padding-right: 2rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
 }
