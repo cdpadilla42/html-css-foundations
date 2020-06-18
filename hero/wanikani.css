@@ -13,6 +13,7 @@ body {
 nav {
   display: flex;
   width: 100%;
+  z-index: 2;
 }
 
 .nav__right_container {
@@ -27,13 +28,24 @@ nav {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.082),
-    url('https://cdn.wanikani.com/assets/lander/header-2560x1600-01-7decaa1b5036dd985c727353daf055c6fe5399eba2f48602689d00d52bfabf33.jpg');
+  background-image: url('https://cdn.wanikani.com/assets/lander/header-2560x1600-01-7decaa1b5036dd985c727353daf055c6fe5399eba2f48602689d00d52bfabf33.jpg');
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.342);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .hero__content {
+  z-index: 2;
   flex: 1;
   display: flex;
   flex-direction: column;
