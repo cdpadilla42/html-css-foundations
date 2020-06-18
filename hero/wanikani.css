@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkcyan;
+}
+
+.logo {
+  height: 2rem;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+.nav__right_container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero {
+  padding: 1rem 5rem;
+  border: 1px solid palegoldenrod;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.hero__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid salmon;
+}
+
+.hero__content h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.hero__content button {
+  border: none;
+  color: rgba(240, 248, 255, 0);
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.hero__angled_footer {
+  height: 8rem;
+}
