@@ -38,9 +38,18 @@ ul {
     display: block;
   }
 
+  .logo_desktop {
+    padding: 0 0.2rem;
+    position: relative;
+    overflow: hidden;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+  }
+
   .logo.desktop {
-    flex: 0;
-    height: 3.5rem;
+    width: 10rem;
+    z-index: 2;
   }
 
   .menu.desktop {
@@ -68,8 +77,9 @@ ul {
     z-index: 1;
   }
 
-  .menu.desktop > li > a:before {
-    background-color: #b8060f;
+  .menu.desktop > li > a:before,
+  .logo_desktop:before {
+    background-color: #9c050d;
     content: '';
     width: 100%;
     height: 100%;
@@ -85,12 +95,16 @@ ul {
     z-index: 2;
     position: relative;
   }
-  .menu.desktop > li > a:hover:before {
+  .menu.desktop > li > a:hover:before,
+  .logo_desktop:hover:before {
     top: 0;
   }
 
   .order_online.desktop {
     padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
   }
 
   .mobile {
