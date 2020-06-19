@@ -1,6 +1,14 @@
 nav {
   display: flex;
   background-color: #b8060f;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -19,4 +27,42 @@ nav {
   padding: 0.8rem;
   color: white;
   font-size: 2rem;
+}
+
+.desktop {
+  display: none;
+}
+
+@media all and (min-width: 996px) {
+  .desktop {
+    display: block;
+  }
+
+  .logo.desktop {
+    flex: 0;
+    height: 3.5rem;
+  }
+
+  .menu.desktop {
+    flex: 1;
+    display: flex;
+    list-style: none;
+    background-color: #cb1f29;
+    align-self: stretch;
+    justify-content: center;
+  }
+
+  .menu.desktop > * {
+    flex: 1;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .order_online.desktop {
+    padding: 1rem;
+  }
+
+  .mobile {
+    display: none;
+  }
 }
