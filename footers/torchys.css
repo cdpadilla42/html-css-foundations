@@ -50,12 +50,43 @@ ul {
     background-color: #cb1f29;
     align-self: stretch;
     justify-content: center;
+    padding: 0 1rem;
   }
 
   .menu.desktop > * {
     flex: 1;
-    padding: 2rem 0;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .menu.desktop > li > a {
+    display: block;
+    padding: 2rem 0;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+  }
+
+  .menu.desktop > li > a:before {
+    background-color: #b8060f;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 0;
+    transition: top 1s ease;
+  }
+
+  span {
+    display: block;
+    z-index: 2;
+    position: relative;
+  }
+  .menu.desktop > li > a:hover:before {
+    top: 0;
   }
 
   .order_online.desktop {
