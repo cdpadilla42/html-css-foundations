@@ -4,22 +4,31 @@
 
 body {
   background-color: darkcyan;
+  font-family: Montserrat, sans-serif;
 }
 
 .logo {
-  height: 2rem;
+  height: 3rem;
 }
 
 nav {
   display: flex;
   width: 100%;
   z-index: 2;
+  align-items: center;
 }
 
 .nav__right_container {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__sign_in {
+  border: none;
+  background: none;
+  color: white;
 }
 
 .hero {
@@ -62,13 +71,31 @@ nav {
   font-weight: 200;
 }
 
-.hero__content button {
+.hero__content button,
+.nav__join {
   border: none;
   color: #167475;
   background-color: white;
   border-radius: 5px;
-  padding: 0.5rem 2rem;
   margin: 1rem 0;
+}
+
+.nav__join {
+  padding: 0.5rem 0.75rem;
+}
+
+.nav__sign_in {
+  margin: 0 2rem;
+  opacity: 0.8;
+  padding: 0.5rem 0;
+}
+
+.nav__sign_in:hover {
+  opacity: 1;
+  border-bottom: 1px solid white;
+}
+.hero__content button {
+  padding: 0.5rem 2rem;
 }
 
 .hero__angled_footer {
