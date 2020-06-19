@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  background-color: #b8060f;
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 2rem;
+}
+
+.hamburger {
+  background-color: #cb1f29;
+  padding: 0.8rem;
+  color: white;
+  font-size: 2rem;
+}
