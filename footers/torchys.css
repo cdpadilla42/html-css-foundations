@@ -15,6 +15,10 @@ ul {
   padding: 0;
   list-style: none;
 }
+li {
+  margin: 0;
+  padding: 0;
+}
 
 .logo {
   flex: 1;
@@ -159,4 +163,43 @@ ul {
   .stickyCTA {
     display: none;
   }
+}
+
+footer {
+  background-color: #b8060f;
+  color: white;
+  line-height: 1.8rem;
+  padding: 5rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  opacity: 0.9;
+}
+
+footer .social {
+  display: flex;
+}
+
+.social__button {
+  display: inline-block;
+  background-color: #cb1f29;
+  border-radius: 50%;
+  line-height: 1rem;
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3rem;
+  transition: background-color 0.4s ease;
+}
+
+.social__button:hover {
+  background-color: #9c050d;
 }
