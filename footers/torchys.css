@@ -204,3 +204,16 @@ footer .social {
 .social__button:hover {
   background-color: #9c050d;
 }
+
+.sticky__button a .fas {
+  display: inline-block;
+  margin: 0 0.6rem;
+}
+
+.sticky__button a {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
