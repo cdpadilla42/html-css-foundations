@@ -4,15 +4,77 @@ footer {
 }
 
 .logo {
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 .footer__links {
   display: flex;
   flex-direction: column;
+  margin-bottom: 4rem;
 }
 
 .footer__links > * {
   margin: 0.5rem 0;
   border-left: 1px solid rgb(170, 170, 170);
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.footer__links > * h4 {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.footer__links > * a {
+  color: #ff4343;
+  text-decoration: none;
+}
+
+.contact__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact__links p {
+  margin: 0;
+}
+
+.contact__links li {
+  line-height: 1.5rem;
+}
+
+.icons {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  width: 7.6rem;
+}
+
+.fab {
+  color: #f1efe0;
+  font-size: 1.5rem;
+}
+
+.icon {
+  background-color: black;
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__fine_print {
+  color: #6f6f6f;
+  font-size: 0.8rem;
+}
+
+.footer__fine_print p {
+  margin: 0.3rem;
+}
+
+.footer__fine_print a {
+  color: #6f6f6f;
 }
