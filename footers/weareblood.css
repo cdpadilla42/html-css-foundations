@@ -1,3 +1,13 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
 .newsletter {
   background-color: #013a5b;
   padding: 2rem 1rem;
