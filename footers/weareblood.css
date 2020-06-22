@@ -1,0 +1,40 @@
+.newsletter {
+  background-color: #013a5b;
+  padding: 2rem 1rem;
+}
+
+.newsletter h2 {
+  margin: 0;
+  color: #e56953;
+}
+
+.newsletter p {
+  color: white;
+}
+
+.newsletter_form {
+  display: flex;
+}
+
+.newsletter_form > * {
+  flex: 1;
+}
+.newsletter_form input {
+  background-color: #70b2c9;
+  border: none;
+  margin-right: 1px;
+  padding: 1rem;
+}
+
+.newsletter_form input:focus {
+  outline: none;
+}
+.newsletter_form button {
+  background-color: #e56953;
+  color: white;
+  border-radius: 2px;
+  margin-left: 1rem;
+  border: none;
+  padding: 0 1.5rem;
+  height: 100%;
+}
