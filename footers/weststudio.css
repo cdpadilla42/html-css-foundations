@@ -1,0 +1,18 @@
+footer {
+  background-color: #f1efe0;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  margin: 2rem 0;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__links > * {
+  margin: 0.5rem 0;
+  border-left: 1px solid rgb(170, 170, 170);
+}
