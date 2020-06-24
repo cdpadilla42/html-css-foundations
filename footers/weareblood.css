@@ -21,6 +21,23 @@ h4 {
   margin: 0;
 }
 
+.content {
+  height: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  align-items: stretch;
+  background-color: #013a5b;
+}
+
+footer > * {
+  flex: 1;
+}
+
 .newsletter {
   background-color: #013a5b;
   padding: 2rem 1rem;
@@ -100,7 +117,6 @@ li {
 .half_right {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
 }
 
 .half_right > *,
@@ -109,7 +125,7 @@ li {
   flex: 1;
   flex-basis: 100px;
   margin: 1rem;
-  /* TODO Adjust half right positioning */
+  /* TODO Adjust desktop view */
 }
 
 .fine_print {
@@ -155,5 +171,25 @@ li {
 @media all and (min-width: 680px) {
   .footer__content {
     flex-direction: row;
+  }
+}
+
+@media all and (min-width: 1026px) {
+  footer {
+    flex-direction: row;
+  }
+
+  .newsletter {
+    position: relative;
+    top: -20px;
+    padding-left: 8rem;
+  }
+
+  .footer__content {
+    padding-right: 8rem;
+  }
+
+  .half_left {
+    flex-direction: column;
   }
 }
