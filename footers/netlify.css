@@ -33,10 +33,12 @@ h5 {
   font-size: 1rem;
   transform: translateY(1.75rem) translateX(0.5rem);
   transition: transform 0.2s ease;
+  pointer-events: none;
 }
 
-.newsletter__form input:focus {
-  /* TODO find out if it's possible to create the cool text effect w/ JS */
+.newsletter__form label.focused {
+  transform: translateX(0) translateY(0);
+  font-size: 0.9rem;
 }
 
 .newsletter__form input {
