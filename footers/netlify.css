@@ -1,0 +1,47 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* email subscribe */
+
+.newsletter {
+  text-align: center;
+}
+
+.logo img {
+  width: 50px;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+.newsletter__form fieldset {
+  display: inline-block;
+}
+
+.newsletter__form label {
+  display: block;
+  text-align: left;
+  font-size: 1rem;
+  transform: translateY(1.75rem) translateX(0.5rem);
+  transition: transform 0.2s ease;
+}
+
+.newsletter__form input:focus {
+  /* TODO find out if it's possible to create the cool text effect w/ JS */
+}
+
+.newsletter__form input {
+  padding: 0.5rem;
+  width: 300px;
+  border: 2px solid rgb(194, 194, 194);
+  border-radius: 5px;
+}

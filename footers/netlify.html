@@ -10,11 +10,19 @@
   <body>
     <footer>
       <div class="newsletter">
-        <div class="logo"><img src="#" alt="netlify" /></div>
+        <div class="logo">
+          <img
+            src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png"
+            alt="netlify"
+          />
+        </div>
         <h5>Stay up to date with all Jamstack & Netlify news</h5>
-        <form action="#">
-          <input type="email" name="email" id="email" />
-          <button>Subscribe</button>
+        <form class="newsletter__form" action="#">
+          <fieldset>
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email" />
+            <button>Subscribe</button>
+          </fieldset>
         </form>
       </div>
       <div class="site_map">
