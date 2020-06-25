@@ -31,10 +31,11 @@ h5 {
   display: block;
   text-align: left;
   font-size: 1rem;
-  transform: translateY(1.75rem) translateX(0.5rem);
+  transform: translateY(2.4rem) translateX(1rem);
   transition: transform 0.2s ease;
   pointer-events: none;
   line-height: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .newsletter__form label.focused {
@@ -43,12 +44,26 @@ h5 {
 }
 
 .newsletter__form input {
-  padding: 0.5rem;
+  padding: 0.7rem;
   width: 300px;
   border: 2px solid rgb(194, 194, 194);
   border-radius: 5px;
 }
 
+.newsletter__form input:focus {
+  box-shadow: 0 0 1px 4px #00ad9f;
+  outline: none;
+}
+
 fieldset {
   border: none;
+}
+
+.newsletter__form button {
+  color: white;
+  background-color: #00ad9f;
+  border-radius: 4px;
+  padding: 0.7rem;
+  border: 2px solid #00ad9f;
+  margin-left: 0.2rem;
 }
