@@ -36,14 +36,14 @@ h5 {
   text-align: left;
   font-size: 1rem;
   transform: translateY(2.4rem) translateX(1rem);
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, font-size 0.2s ease;
   pointer-events: none;
   line-height: 1rem;
   margin-bottom: 0.5rem;
 }
 
 .newsletter__form label.focused {
-  transform: translateX(0) translateY(0);
+  transform: translateX(-20px) translateY(0) scale(0.9);
   font-size: 0.8rem;
 }
 
