@@ -17,6 +17,7 @@ body {
 
 .newsletter {
   text-align: center;
+  margin: 2rem;
 }
 
 .logo img {
@@ -117,18 +118,46 @@ fieldset {
 .learn_more_wrap {
   display: flex;
   justify-content: center;
-  margin: 1rem;
+  margin: 3rem;
+  margin-bottom: 2rem;
 }
 
 .learn_more {
   background-color: rgb(242, 242, 242);
   border-radius: 5px;
-  padding: 2rem;
+  padding: 1.5rem;
   max-width: 1200px;
   flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0;
 }
 
 .learn_more a {
   text-decoration: none;
   color: gray;
+  display: block;
+  margin: 0 1rem;
+}
+
+.fine_print {
+  text-decoration: none;
+  color: gray;
+  display: block;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.fine_print a {
+  display: block;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.fine_print a:hover {
+  text-decoration: underline;
 }
