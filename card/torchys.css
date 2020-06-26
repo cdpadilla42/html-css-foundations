@@ -159,7 +159,7 @@ img {
   transition: transform 2s ease;
 }
 
-.title_bar:hover:after {
+.card:hover .title_bar:after {
   transform: translateX(-120%);
 }
 
