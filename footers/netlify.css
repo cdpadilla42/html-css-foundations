@@ -71,3 +71,29 @@ fieldset {
   border: 2px solid #00ad9f;
   margin-left: 0.2rem;
 }
+
+/* Site Map */
+
+.site_map {
+  /* border: 1px solid black; */
+  border-top: 1px solid rgb(173, 173, 173);
+  border-bottom: 1px solid rgb(173, 173, 173);
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  max-width: 860px;
+  margin: 0 auto;
+  /* border: 1px solid salmon; */
+  padding-bottom: 3rem;
+}
+
+.site_map h5 {
+  margin-top: 0;
+}
+.site_map > * {
+  flex: 1;
+  flex-basis: 150px;
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
