@@ -107,3 +107,28 @@ fieldset {
   margin: 1rem 0;
   color: gray;
 }
+
+/* Social */
+
+.social h5 {
+  text-align: center;
+}
+
+.learn_more_wrap {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.learn_more {
+  background-color: rgb(242, 242, 242);
+  border-radius: 5px;
+  padding: 2rem;
+  max-width: 1200px;
+  flex: 1;
+}
+
+.learn_more a {
+  text-decoration: none;
+  color: gray;
+}
