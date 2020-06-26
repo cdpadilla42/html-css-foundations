@@ -9,6 +9,10 @@ li {
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* email subscribe */
 
 .newsletter {
@@ -90,10 +94,16 @@ fieldset {
 
 .site_map h5 {
   margin-top: 0;
+  margin-bottom: 2rem;
 }
 .site_map > * {
   flex: 1;
   flex-basis: 150px;
   padding-left: 3rem;
   padding-top: 3rem;
+}
+
+.card li {
+  margin: 1rem 0;
+  color: gray;
 }
