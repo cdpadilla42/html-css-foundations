@@ -69,7 +69,6 @@ body {
   border: 5px solid rgb(21, 32, 43);
   position: absolute;
   top: -75px;
-  left: 10px;
 }
 
 .profile_card h3 {
@@ -136,4 +135,39 @@ body {
 .followed_by {
   font-size: 0.8rem;
   color: rgb(136, 153, 166);
+}
+
+.profile_icons {
+  position: relative;
+}
+
+.profile_icons img {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  border: 1px solid rgb(21, 32, 43);
+  z-index: 2;
+  position: absolute;
+}
+
+.followed_by {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.profile_icons {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 6px;
+}
+
+.profile_icons img:nth-child(2) {
+  position: absolute;
+  left: 8px;
+  z-index: 1;
+}
+.followed_by span {
+  display: block;
 }
