@@ -79,7 +79,9 @@ body {
 }
 
 .handle,
-.following {
+.following,
+.stats__following,
+.stats__followers {
   color: rgb(136, 153, 166);
   font-size: 0.9rem;
 }
@@ -96,13 +98,42 @@ body {
 .sub_description {
   color: rgb(136, 153, 166);
   font-size: 0.9rem;
+  margin-bottom: 1rem;
 }
 
 .sub_description a {
   color: rgb(29, 161, 242);
+  text-decoration: none;
+}
+
+.sub_description a:hover {
+  text-decoration: underline;
 }
 
 .sub_description .fas {
+  margin: 0 0.5rem;
   color: rgb(136, 153, 166);
-  margin: 0.25rem;
+}
+
+.sub_description a .fas {
+  margin-left: 0;
+}
+
+.stats__following span,
+.stats__followers span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+}
+
+.stats__following,
+.stats__followers {
+  display: inline-block;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.followed_by {
+  font-size: 0.8rem;
+  color: rgb(136, 153, 166);
 }
