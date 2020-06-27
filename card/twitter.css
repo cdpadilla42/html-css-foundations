@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(21, 32, 43);
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.profile_card {
+  max-width: 600px;
+  border: 1px solid rgb(56, 68, 77);
+  margin: 0 auto;
+}
+
+.banner {
+  width: 100%;
+}
+
+.links {
+  position: relative;
+}
+
+.links_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links_right > * {
+  border: 1px solid rgb(29, 161, 242);
+  font-size: 1.2rem;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(29, 161, 242);
+}
+
+.notifications,
+.following_link {
+  color: white;
+  background-color: rgb(29, 161, 242);
+}
+
+.following_link {
+  width: auto;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin-right: 0;
+}
+
+.card_content {
+  padding: 0 1rem;
+}
+
+.profpic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid rgb(21, 32, 43);
+  position: absolute;
+  top: -75px;
+  left: 10px;
+}
+
+.profile_card h3 {
+  display: block;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.handle,
+.following {
+  color: rgb(136, 153, 166);
+  font-size: 0.9rem;
+}
+
+.following {
+  display: inline-block;
+  margin-left: 3px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: rgb(37, 51, 65);
+  font-size: 0.8rem;
+}
+
+.sub_description {
+  color: rgb(136, 153, 166);
+  font-size: 0.9rem;
+}
+
+.sub_description a {
+  color: rgb(29, 161, 242);
+}
+
+.sub_description .fas {
+  color: rgb(136, 153, 166);
+  margin: 0.25rem;
+}
