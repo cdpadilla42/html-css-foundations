@@ -1,0 +1,32 @@
+body {
+  font-family: 'Unica One', sans-serif;
+}
+
+.card {
+  width: 500px;
+  height: 300px;
+  background: url('https://files.tofugu.com/articles/japanese/2020-06-16-omou-kangaeru/header-640x.jpg');
+  background-position: center;
+  background-size: cover;
+  border-bottom: 5px solid #268bd2;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background-color: #268bd2;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.25rem;
+}
+
+.title i {
+  font-size: 0.8rem;
+  display: inline-block;
+  margin: 0.25rem 0rem;
+  margin-right: 0.5rem;
+}
