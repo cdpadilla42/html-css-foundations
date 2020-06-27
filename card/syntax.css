@@ -1,6 +1,12 @@
 body {
   background: url('https://syntax.fm/static/background.jpg');
   font-family: Roboto, sans-serif;
+  border-top: 3px solid #f1c15d;
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -14,8 +20,8 @@ a {
   font-weight: 300;
   background-color: rgba(88, 88, 88, 0.342);
   border-radius: 2px;
-  padding: 0.5rem;
-  margin: 1rem 1rem;
+  padding: 1rem;
+  margin: 0.5rem 1rem;
 }
 
 .card img {
@@ -33,6 +39,7 @@ a {
 
 .card__top_section {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .name {
@@ -41,4 +48,19 @@ a {
 
 .card p {
   margin: 0;
+}
+
+@media all and (min-width: 800px) {
+  .card img {
+    width: 80px;
+    border: 3px solid white;
+  }
+
+  .people {
+    flex-direction: row;
+  }
+
+  .people > * {
+    flex: 1;
+  }
 }
