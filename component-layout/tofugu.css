@@ -2,15 +2,17 @@ body {
   font-family: 'Lora', serif;
 }
 
-.review {
+.review,
+.summary {
   background-color: rgb(235, 235, 235);
   max-width: 840px;
   margin: 0 auto;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .review {
   display: flex;
-  padding: 1rem;
 }
 
 .profile_pic img {
