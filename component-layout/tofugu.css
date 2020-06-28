@@ -1,0 +1,48 @@
+body {
+  font-family: 'Lora', serif;
+}
+
+.review {
+  background-color: rgb(235, 235, 235);
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.review {
+  display: flex;
+  padding: 1rem;
+}
+
+.profile_pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.review__body {
+  padding-left: 1rem;
+}
+
+.review__title h4 {
+  margin: 0;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.score {
+  color: #859900;
+}
+
+.review__body p {
+  line-height: 1.8rem;
+  font-size: 1rem;
+}
+
+.review__body a {
+  color: #859900;
+  text-decoration: none;
+}
+
+.review__body a:hover {
+  text-decoration: underline;
+}
