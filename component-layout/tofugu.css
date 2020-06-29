@@ -55,6 +55,13 @@ body {
 
 /* Summary */
 
+.summary {
+  text-transform: uppercase;
+  font-family: 'Unica One', sans-serif;
+  padding: 3rem;
+  padding-top: 1rem;
+}
+
 .summary__title,
 .summary__subtitle {
   font-size: 1.5rem;
@@ -78,4 +85,30 @@ body {
 .summary__subtitle .by {
   font-style: italic;
   font-style: 1rem;
+}
+
+.summary h5 {
+  color: var(--accent);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.summary__pros_cons_flex {
+  display: flex;
+}
+
+.summary__pros_cons_flex > * {
+  flex: 1;
+}
+
+/* @768 */
+@media all and (max-width: 768px) {
+  .summary__pros_cons_flex {
+    flex-direction: column;
+  }
+}
+
+.summary__links a {
+  color: var(--accent);
+  text-decoration: none;
 }
