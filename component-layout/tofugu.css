@@ -1,3 +1,7 @@
+:root {
+  --accent: #859900;
+}
+
 body {
   font-family: 'Lora', serif;
 }
@@ -32,7 +36,7 @@ body {
 }
 
 .score {
-  color: #859900;
+  color: var(--accent);
 }
 
 .review__body p {
@@ -41,10 +45,37 @@ body {
 }
 
 .review__body a {
-  color: #859900;
+  color: var(--accent);
   text-decoration: none;
 }
 
 .review__body a:hover {
   text-decoration: underline;
+}
+
+/* Summary */
+
+.summary__title,
+.summary__subtitle {
+  font-size: 1.5rem;
+  color: white;
+  display: block;
+}
+
+.summary__title span,
+.summary__subtitle span {
+  background-color: var(--accent);
+}
+
+.summary__title {
+  margin-bottom: 0;
+}
+
+.summary__subtitle {
+  margin-top: 0;
+}
+
+.summary__subtitle .by {
+  font-style: italic;
+  font-style: 1rem;
 }
