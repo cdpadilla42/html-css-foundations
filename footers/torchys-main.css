@@ -93,29 +93,31 @@ main h4 {
   font-size: 2rem;
 }
 
-.fam_pack__order {
+.arrow_link {
+  position: relative;
+  overflow: hidden;
   text-decoration: none;
   color: white;
-  background-color: rgb(184, 6, 16);
   font-size: 1.5rem;
   height: 3rem;
   padding: 0;
   display: flex;
-  width: 220px;
   align-items: center;
-  margin-top: 2rem;
 }
 
 .arrow_link {
-  position: relative;
-  overflow: hidden;
+  background-color: #ca4007;
+}
+
+.arrow_link .arrow {
+  background-color: #dd5d29;
 }
 
 .arrow_link::before {
   width: 100%;
   height: 100%;
   transform: translateX(90%);
-  background-color: #cb1f29;
+  background-color: #dd5d29;
   content: '';
   z-index: 1;
   position: absolute;
@@ -134,10 +136,25 @@ main h4 {
 
 .arrow_link .arrow {
   display: inline-block;
-  background-color: #cb1f29;
   height: 100%;
   display: flex;
   align-items: center;
   padding: 0 1rem;
   z-index: 2;
+}
+
+.fam_pack__order .arrow {
+  background-color: #cb1f29;
+}
+
+.fam_pack__order {
+  width: 220px;
+  margin-top: 2rem;
+}
+
+.fam_pack__order.arrow_link {
+  background-color: rgb(184, 6, 16) !important;
+}
+.fam_pack__order.arrow_link::before {
+  background-color: #cb1f29;
 }
