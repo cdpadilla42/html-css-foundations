@@ -9,18 +9,19 @@
 .first_flex {
   display: flex;
   flex-direction: column;
-  height: auto;
+  height: 200vh;
+  width: 100vw;
 }
 
 .first_flex > * {
   flex: 1;
-  flex-basis: 100vh;
 }
 
 .secondary__links {
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
 }
 
 .secondary__links > * {
@@ -44,9 +45,15 @@
 @media all and (min-width: 768px) {
   .first_flex {
     flex-direction: row;
+    height: 100vh;
   }
 
   .main__fam_pack {
-    /* width: 200px; */
+    height: 100%;
+    flex: 2;
+  }
+
+  .secondary__links {
+    /* flex-basis: 200px; */
   }
 }
