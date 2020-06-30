@@ -54,6 +54,12 @@ main h4 {
   background-size: cover;
 }
 
+@media all and (min-width: 576px) {
+  .secondary__links {
+    flex-direction: row;
+  }
+}
+
 @media all and (min-width: 768px) {
   .first_flex {
     flex-direction: row;
@@ -66,6 +72,7 @@ main h4 {
   }
 
   .secondary__links {
+    flex-direction: column;
   }
 }
 
@@ -167,4 +174,17 @@ main h4 {
 
 .arrow_link .text {
   padding: 0 1rem;
+}
+
+/* 416 */
+
+@media all and (max-width: 996px) {
+  .first_flex {
+    height: 416px;
+  }
+}
+
+/* 768 */
+
+@media all and (max-width: 768px) {
 }
