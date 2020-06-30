@@ -130,7 +130,7 @@ main h4 {
 
 .arrow_link .text {
   z-index: 2;
-  flex: 1;
+  /* flex: 1; */
   text-align-last: center;
 }
 
@@ -148,13 +148,23 @@ main h4 {
 }
 
 .fam_pack__order {
-  width: 220px;
   margin-top: 2rem;
+  width: 222px;
 }
 
 .fam_pack__order.arrow_link {
-  background-color: rgb(184, 6, 16) !important;
+  background-color: rgb(184, 6, 16);
 }
 .fam_pack__order.arrow_link::before {
   background-color: #cb1f29;
+}
+
+.secondary__links > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow_link .text {
+  padding: 0 1rem;
 }
