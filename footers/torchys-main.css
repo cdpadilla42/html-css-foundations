@@ -1,0 +1,40 @@
+.main__fam_pack {
+  background: url('https://torchystacos.com/wp-content/uploads/FP-Marketing-Crossroads72dpi.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.first_flex {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.first_flex > * {
+  flex: 1;
+  flex-basis: 100vh;
+}
+
+.secondary__links {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.secondary__links > * {
+  flex: 1;
+}
+
+.taco_of_the_month {
+  background: url('https://torchystacos.com/wp-content/uploads/texas_hottie_web_thumb_486x324.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.secondary_safety {
+  background: url('https://torchystacos.com/wp-content/uploads/3-59.png');
+  background-position: center;
+  background-size: cover;
+}
