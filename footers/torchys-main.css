@@ -63,7 +63,7 @@ main h4 {
 @media all and (min-width: 768px) {
   .first_flex {
     flex-direction: row;
-    height: 100vh;
+    height: calc(100vh - 80px);
   }
 
   .main__fam_pack {
