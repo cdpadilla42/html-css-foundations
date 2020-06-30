@@ -188,3 +188,13 @@ main h4 {
 
 @media all and (max-width: 768px) {
 }
+
+.damn_good_break img {
+  width: 100%;
+}
+
+@media all and (max-width: 992px) {
+  .damn_good_break {
+    display: none;
+  }
+}
