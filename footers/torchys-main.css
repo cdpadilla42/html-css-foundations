@@ -38,3 +38,15 @@
   background-position: center;
   background-size: cover;
 }
+
+/* 768 */
+
+@media all and (min-width: 768px) {
+  .first_flex {
+    flex-direction: row;
+  }
+
+  .main__fam_pack {
+    /* width: 200px; */
+  }
+}
