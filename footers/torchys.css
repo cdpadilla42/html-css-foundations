@@ -50,6 +50,7 @@ li {
 /* Sticky Nav */
 
 .stickyCTA {
+  z-index: 5;
   position: sticky;
   bottom: 0;
   display: flex;
