@@ -143,7 +143,7 @@ main h4 {
 
 .arrow_link .arrow {
   display: inline-block;
-  height: 100%;
+  align-self: stretch;
   display: flex;
   align-items: center;
   padding: 0 1rem;
@@ -197,4 +197,16 @@ main h4 {
   .damn_good_break {
     display: none;
   }
+}
+
+.welcome_strip {
+  display: flex;
+}
+
+.drink {
+  flex: 1;
+}
+
+.listen_up {
+  flex: 3;
 }
