@@ -201,12 +201,22 @@ main h4 {
 
 .welcome_strip {
   display: flex;
+  height: 100px;
 }
 
 .drink {
-  flex: 1;
+  flex: 3;
+  background-color: green;
 }
 
 .listen_up {
-  flex: 3;
+  flex: 6;
+  background-color: palegoldenrod;
+}
+
+@media all and (max-width: 768px) {
+  .welcome_strip {
+    flex-direction: column;
+    height: 600px;
+  }
 }
