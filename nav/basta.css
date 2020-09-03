@@ -21,11 +21,20 @@ nav > * {
 nav a {
   color: #1071e2;
   text-decoration: none;
+  transition: color 0.4s ease;
+}
+
+nav a:hover {
+  color: #093669;
 }
 
 .nav__hamburger {
   color: grey;
   font-size: 1.3rem;
+}
+
+.nav__center {
+  flex: 1;
 }
 
 .nav__logo {
@@ -34,10 +43,21 @@ nav a {
 }
 
 .nav__logo span {
-  margin: 0 0.5rem;
+  margin: 0 0.25rem;
 }
 
 .nav__links {
   flex: 1;
   list-style: none;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+}
+
+@media all and (max-width: 960px) {
+  .nav__links {
+    position: absolute;
+    top: 0;
+    left: -100%;
+  }
 }
