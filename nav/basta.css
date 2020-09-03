@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: #1071e2;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav > * {
+  margin: 1rem 0.5rem;
+}
+
+nav a {
+  color: #1071e2;
+  text-decoration: none;
+}
+
+.nav__hamburger {
+  color: grey;
+  font-size: 1.3rem;
+}
+
+.nav__logo {
+  font-size: 1.5rem;
+  color: #ea4c95;
+}
+
+.nav__logo span {
+  margin: 0 0.5rem;
+}
+
+.nav__links {
+  flex: 1;
+  list-style: none;
+}
