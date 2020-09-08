@@ -102,12 +102,18 @@ nav a:hover {
   font-size: 2rem;
   font-weight: 100;
   margin-right: 0.5rem;
-  background-color: #82d8d8;
   border-radius: 50%;
   width: 38px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(130, 216, 216, 0);
+  transition: background-color 0.2s ease;
+}
+
+.close:hover {
+  cursor: pointer;
+  background-color: rgba(130, 216, 216, 0.6);
 }
 
 .side_menu__links {
