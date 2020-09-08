@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -69,10 +73,10 @@ nav a:hover {
   left: 0;
   top: 0;
   height: 100vh;
-  background-color: #fff;
   padding: 0.5rem 0;
-  width: 10rem;
+  width: 16rem;
   z-index: 4;
+  background-color: #524763;
 }
 
 .overlay {
@@ -85,6 +89,20 @@ nav a:hover {
   height: 100vh;
 }
 
+.side_menu__heading {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #82d8d8;
+  padding: 1rem 1.5rem;
+  color: white;
+}
+
+.close {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-right: 0.5rem;
+}
+
 .side_menu__links {
   list-style: none;
   margin: 0;
@@ -95,8 +113,12 @@ nav a:hover {
 
 .side_menu__links li {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 1rem;
-  border-top: 1px solid grey;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #82d8d8;
+}
+
+.side_menu a {
+  text-decoration: none;
+  color: #82d8d8;
 }
